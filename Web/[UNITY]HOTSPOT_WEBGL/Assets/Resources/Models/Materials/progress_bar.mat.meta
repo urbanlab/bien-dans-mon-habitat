@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:[UNITY]HOTSPOT_VR/Assets/EasyMovieTexture/Prefab.meta
+guid: b9f3087ba7b60734fbb92a08fcf65726
+folderAsset: yes
+DefaultImporter:
+=======
+guid: 0c1505d9ae2db6a43af59ddb52fd6fa5
+timeCreated: 1533618953
+licenseType: Free
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+>>>>>>> 95b92fc7d11a44710defc145262ccfb6f71b52dc:[UNITY]HOTSPOT_WEBGL/Assets/Resources/Models/Materials/progress_bar.mat.meta
+  userData: 

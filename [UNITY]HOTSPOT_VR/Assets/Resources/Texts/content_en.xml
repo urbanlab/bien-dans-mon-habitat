@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+  <app_name>No Name</app_name>
+  <GUI_ok>OK</GUI_ok>
+  <GUI_cancel>Cancel</GUI_cancel>
+  <GUI_yes>Yes</GUI_yes>
+  <GUI_no>No</GUI_no>
+  <close>Close</close>
+  <empty></empty>
+
+  <!--Tutorial-->
+  <button_back>Back</button_back>
+  <button_next>Next</button_next>
+  <button_quit>Skip Tutorial</button_quit>
+  
+  <!--Main-->
+  <button_video>Video: </button_video>
+</content>

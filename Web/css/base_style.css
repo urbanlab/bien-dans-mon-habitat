@@ -1,0 +1,264 @@
+/****************************
+**  FONTS 
+*****************************/
+@font-face {
+  font-family: Univers;
+  src: url('../fonts/Univers/Univers.otf') format('opentype');
+}
+/***** BLACK *****/
+@font-face {
+  font-family: Univers-Black;
+  src: url('../fonts/Univers/Univers-Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-BlackExt;
+  src: url('../fonts/Univers/Univers-BlackExt.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-BlackExtObl;
+  src: url('../fonts/Univers/Univers-BlackExtObl.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-BlackOblique;
+  src: url('../fonts/Univers/Univers-BlackOblique.otf') format('opentype');
+}
+/***** BOLD *****/
+@font-face {
+  font-family: Univers-Bold;
+  src: url('../fonts/Univers/Univers-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-BoldExt;
+  src: url('../fonts/Univers/Univers-BoldExt.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-BoldExtObl;
+  src: url('../fonts/Univers/Univers-BoldExtObl.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-BoldOblique;
+  src: url('../fonts/Univers/Univers-BoldOblique.otf') format('opentype');
+}
+/***** CONDENSED *****/
+@font-face {
+  font-family: Univers-Condensed;
+  src: url('../fonts/Univers/Univers-Condensed.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-CondensedExt;
+  src: url('../fonts/Univers/Univers-CondensedExt.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-CondensedExtObl;
+  src: url('../fonts/Univers/Univers-CondensedExtObl.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-CondensedOblique;
+  src: url('../fonts/Univers/Univers-CondensedOblique.otf') format('opentype');
+}
+/***** EXTENDED / EXTRA *****/
+@font-face {
+  font-family: Univers-Extended;
+  src: url('../fonts/Univers/Univers-Extended.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-ExtendedObl;
+  src: url('../fonts/Univers/Univers-ExtendedObl.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-ExtraBlack;
+  src: url('../fonts/Univers/Univers-ExtraBlack.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-ExtraBlackExt;
+  src: url('../fonts/Univers/Univers-ExtraBlackExt.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-ExtraBlackExtObl;
+  src: url('../fonts/Univers/Univers-ExtraBlackExtObl.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-ExtraBlackObl;
+  src: url('../fonts/Univers/Univers-ExtraBlackObl.otf') format('opentype');
+}
+/***** LIGHT *****/
+@font-face {
+  font-family: Univers-Light;
+  src: url('../fonts/Univers/Univers-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-LightOblique;
+  src: url('../fonts/Univers/Univers-LightOblique.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-LightUltraCondensed;
+  src: url('../fonts/Univers/Univers-LightUltraCondensed.otf') format('opentype');
+}
+/***** OTHERS *****/
+@font-face {
+  font-family: Univers-Oblique;
+  src: url('../fonts/Univers/Univers-Oblique.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-ThinUltraCondensed;
+  src: url('../fonts/Univers/Univers-ThinUltraCondensed.otf') format('opentype');
+}
+
+@font-face {
+  font-family: Univers-UltraCondensed;
+  src: url('../fonts/Univers/Univers-UltraCondensed.otf') format('opentype');
+}
+/****************************
+**  STYLES FOR ELEMENTS 
+*****************************/
+body{
+  font-weight: 400;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: white;
+}
+
+a 
+{
+	color: white;
+	text-decoration : underline;
+}
+
+h4
+{
+	font-family: Univers;
+}
+
+/****************************
+**  STYLES FOR CLASSES 
+*****************************/
+.btn-default
+{
+	color: white;
+	font-family: Univers-BoldExt;
+	font-size: 17px;
+    background: #ff0000; /* For browsers that do not support gradients */
+}
+
+.btn-default:hover
+{
+    border-color: #08088A;
+   /* background: #5882FA; /* For browsers that do not support gradients */
+}
+
+.subTitle
+{
+	font-family: Univers-Condensed;
+	color: #de1000;
+	font-size: 36px;
+}
+
+.Title
+{
+	font-family: Univers-Condensed;
+	color: #de1000;
+	font-size: 48px;
+}
+
+.redP
+{
+	font-family: Univers;
+	color: #de1000;
+	font-size: 18px;
+}
+
+.blackP
+{
+	font-family: Univers;
+	font-size: 18px;
+}
+
+/****************************
+**  MODAL STYLE
+*****************************/
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalTitle
+{
+	color: white;
+	font-family: Univers-Condensed;
+	font-size: 36px;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 700px;
+	position: relative;
+	margin: 10% auto;
+	padding: 8px 8px 8px 8px;
+	border-radius: 10px;
+	background: #e20613;
+}
+
+.close {
+	color: #FFFFFF;
+	position: absolute;
+	right: 15px;
+	text-align: center;
+	font-family: Univers-Extended;
+	font-size: 23px;
+	text-decoration: none;
+}
+
+.modal-body
+{
+	background: white;
+	font-weight: bold;
+}
+/****************************
+**  FOOTER 
+*****************************/
+hr.style-one {
+      height: 3px;
+    border: 1;
+	color:#ff0000;
+	background-color: #ff0000;
+}
+
+footer {
+    color: #ffffff;
+}
+
+footer .footer-above {
+
+    background-color: #ff0000;
+}

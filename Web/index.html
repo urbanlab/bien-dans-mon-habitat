@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Logement Adapté</title>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" href="TemplateData/favicon.ico">
+	</head>
+
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+ 	<script type="text/javascript" src="js/scrt.js"></script>
+ 
+ 
+ 	<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+ 	<!-- Awesome Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+     <!-- Modal -->
+    <link href='css/modal.css' rel='stylesheet' type='text/css'>
+    
+   <!-- Scripts Bootstrap and More -->  
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/reloj-digital.js"></script>
+	<script src="js/WindowSize.js"></script>
+	
+    <!-- Base - Style -->
+    <link href='css/base_style.css' rel='stylesheet' type='text/css'>
+	
+	<!-- Unity -->
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WEBResponsive.json", {onProgress: UnityProgress});
+    </script>
+	
+    <body>
+	<!-- Modales -->
+	
+<div id="Contacts" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2 class="modalTitle">&nbsp;&nbsp;&nbsp;Contacts</h2>
+		<hr/>
+		<div class="modal-body">
+			<span class="blackP" style="color:black;">Pour contacter l'équipe projet bien vivre chez soi à la Métropole:</span>
+			<br/>
+			<p class="redP">conferencedesfinanceurs@grandlyon.com</p>
+			<span class="blackP" style="color:black;">Pour en savoir plus sur l'appartement adapté de Lyon Métropole Habitat:</span>
+			<p class="redP">ntouil@lmhabitat.fr</p>
+			<center><a type="button" href="#close" class="btn btn-default" style="text-decoration:none">&nbsp;&nbsp;FERMER&nbsp;&nbsp;</a></center>
+		</div>
+	</div>
+
+</div>
+
+<div id="Cardboard" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2 class="modalTitle" style="text-align:center">Visionner sur un cardboard</h2>
+		<hr/>
+		<div class="modal-body">
+		<span class="blackP" style="color:black;">L’application est disponible pour les téléphones Android</span>
+		<br/>
+			<span class="blackP" style="color:black;">Pour installer votre application cardboard dans votre téléphone :</span>
+			<br/>
+			<span class="blackP" style="color:black;">1) Téléchargez l'application à partir de votre téléphone sur ce lien : <a href="LogementAdapte.apk" style="color:blue;text-decoration:none">APK</a></span>
+			<br/>
+			<span class="blackP" style="color:black;">2) Une fois  l'application téléchargée, cliquez sur installer</span>
+			<br/>
+			<span class="blackP" style="color:black;">3) Autorisez l'installation de l'application dans "sources inconnus".</span>
+			<br/>
+			<span class="blackP" style="color:black;">4) Munissez-vous d'un cardboard pour visualiser l'application</span>
+			<center><a type="button" href="#close" class="btn btn-default" style="text-decoration:none">&nbsp;&nbsp;FERMER&nbsp;&nbsp;</a></center>
+		</div>
+	</div>
+
+</div>
+<!-- -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-7">
+			<h1 class="Title" style="margin-left: 10px;">Bien dans mon habitat</h1>
+		</div>
+		<div class="col-lg-5">
+			<br/>
+			<div class="col-lg-6">
+				<img src="images/logo_grand.png" class="img-responsive">
+			</div>
+			<div class="col-lg-6">
+				<img src="images/logo_lyon2.png" class="img-responsive">
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<hr class="style-one"/>
+	</div>
+	<div class="row">
+		<div class="col-lg-7">
+			<br/><br/><br/><br/>
+			<div class="col-lg-12" >
+			<!--<img src="images/00.jpg" class="img-responsive" style="margin-left: 20px;">-->
+			
+				<div class="webgl-content">
+					<div id="gameContainer" class="gameC" style="height: 250px; width: 350px"></div>
+				</div>	
+				
+			</div>
+			<div class="col-lg-6">
+				<h6 class="btn btn-default" style="font-size:15px;" onclick="gameInstance.SetFullscreen(1)">Afficher en plein écran</h6>
+			</div>
+			<div class="col-lg-6">
+				.
+			</div>
+		</div>
+		<div class="col-lg-5">
+			<h1 class="subTitle" style="margin-left: 30px; font-size:28px">Un logement adapté </h1>
+			<br/>
+			<p class="redP" style="margin-left: 30px; margin-right: 20px; font-size:15px">
+				&nbsp; &nbsp; &nbsp; Chacun devrait se sentir bien dans son lieu de vie.
+				<br/>Avoir un « chez soi » est un facteur majeur de santé. 
+				<br/>Mais avec l’avancée en âge, certains gestes du quotidien
+				peuvent devenir plus pénibles, voir plus dangereux.
+				<br/>Adapter son habitat c’est immédiatement gagner en
+				confort, en sécurité, et en autonomie.
+			</p>
+			<p id="p1"></p>
+			<div class="col-lg-6">
+				<p class="blackP" style="margin-left: 20px; font-size:15px">
+				&nbsp; &nbsp; &nbsp; Un logement peut être
+					adapté à l’avancée en âge,
+					tout en étant beau et
+					agréable. Les adaptations
+					sont si discrètes :
+					<br/>Saurez-vous les découvrir ?
+					Laissez-vous guider dans la
+					visite virtuelle d’un vrai
+					logement du parc ancien,
+					rénové et adapté aux
+					besoins des séniors.
+				</p>
+			</div>
+			<div class="col-lg-6">
+				<p class="redP" style="text-align: center;"><b>Un projet financé par</b></p>
+				<img src="images/image_tree.png" class="img-responsive">
+			</div>
+		</div>
+	</div>
+</div>
+<!--<script src="TemplateData/responsive.js"></script>-->
+<br/>
+ <!-- footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-lg-12">
+                        <h4>
+							<a style="text-decoration:none;" href="https://www.erasme.org/BienVivreChezSoi">Le projet bien vivre chez soi à la Métropole</a>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							|
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a style="text-decoration:none;" href="#Contacts">Contact</a>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							|
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a style="text-decoration:none;" href="#Cardboard">Cardboard &nbsp;&nbsp;&nbsp;<img src="images/cardboard_icon.png" height="35" width="40"></a>
+						</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+	</body>
+</html>
